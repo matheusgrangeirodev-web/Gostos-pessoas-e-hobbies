@@ -1,0 +1,23 @@
+@media (max-width: 960px) {
+
+    .secao-conteudo,
+    .secao-conteudo.secao-invertida {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "texto"
+            "visual";
+        gap: 2rem;
+    }
+
+    .hobbies-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero-conteudo h1 {
+        font-size: 3rem;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+}
